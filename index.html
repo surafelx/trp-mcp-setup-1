@@ -1,0 +1,37 @@
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>TRP Log</title>
+  <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+  <header>
+    <h1>TRP Log</h1>
+    <p class="sub">Quick notes and links — saved in your browser.</p>
+  </header>
+
+  <main class="container">
+    <section class="entry-form">
+      <label>Note</label>
+      <textarea id="note" placeholder="What are we covering?" rows="4"></textarea>
+
+      <label>Link (optional)</label>
+      <input id="link" placeholder="https://example.com" />
+
+      <div class="controls">
+        <button id="save">Save Entry</button>
+        <button id="clearAll" class="danger">Clear All</button>
+      </div>
+    </section>
+
+    <section class="entries">
+      <h2>Entries</h2>
+      <ul id="entriesList"></ul>
+    </section>
+  </main>
+
+  <script src="app.js"></script>
+</body>
+</html>
