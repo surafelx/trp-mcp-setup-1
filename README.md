@@ -128,24 +128,6 @@ Each version is stored in the `rules/` directory.
 
 ---
 
-## Repository Structure
-
-.
-├── README.md
-├── rules/
-│ ├── agent-rules-v1.md
-│ ├── agent-rules-v2.md
-│ └── changelog.md
-├── experiments/
-│ ├── baseline.md
-│ ├── with-rules-v1.md
-│ └── with-rules-v2.md
-├── src/
-│ └── trp-log-app/
-└── insights.md
-
-
----
 
 ## Closing Notes
 
